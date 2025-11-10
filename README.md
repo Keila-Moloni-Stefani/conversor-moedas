@@ -1,8 +1,5 @@
 # Challenge - Conversor de Moedas
 
-```
-# Sobre o Projeto
-
 Este é um conversor de moedas desenvolvido em **Java** que permite realizar conversões entre diferentes moedas utilizando taxas de câmbio **atualizadas em tempo real** através da **ExchangeRate API**.
 
 *O projeto foi desenvolvido como parte da Formação ONE (Oracle Next Education) em parceria com a Alura*, com o objetivo de aplicar conhecimentos de:
@@ -22,7 +19,7 @@ Este é um conversor de moedas desenvolvido em **Java** que permite realizar con
 - ✅ **Loop contínuo** permitindo múltiplas conversões
 - ✅ **Informações detalhadas** incluindo taxa de câmbio aplicada
 
-## Moedas Suportadas
+# Moedas Suportadas
 
 | Opção | De | Para | Descrição |
 |-------|----|----|-----------|
@@ -33,7 +30,7 @@ Este é um conversor de moedas desenvolvido em **Java** que permite realizar con
 | 5 | USD | COP | Dólar Americano → Peso Colombiano |
 | 6 | COP | USD | Peso Colombiano → Dólar Americano |
 
-## Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 | Tecnologia | Versão | Descrição |
 |------------|--------|-----------|
@@ -43,7 +40,7 @@ Este é um conversor de moedas desenvolvido em **Java** que permite realizar con
 | **HttpClient** | Java 11+ | Cliente HTTP nativo para requisições à API |
 | **ExchangeRate API** | v6 | API para obter taxas de câmbio em tempo real |
 
-## Pré-requisitos
+# Pré-requisitos
 
 Antes de executar o projeto, certifique-se de ter instalado:
 
@@ -100,7 +97,7 @@ mvn exec:java -Dexec.mainClass="Principal"
 5. Continue fazendo conversões ou digite **7** para sair
 
 
-## Exemplo de Uso Completo
+# Exemplo de Uso Completo
 
 ```
 ==================================================
@@ -128,7 +125,7 @@ Escolha uma opção de conversão:
 ==================================================
 ```
 
-## Estrutura do Projeto
+# Estrutura do Projeto
 
 ```
 conversor-moedas/
