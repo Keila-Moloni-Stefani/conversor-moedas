@@ -60,10 +60,10 @@ cd conversor-moedas
 
 ### 2️⃣ Obtenha sua API Key
 
-1. Acesse [ExchangeRate-API](https://www.exchangerate-api.com/)
-2. Clique em **"Get Free Key"**
-3. Cadastre-se com seu e-mail
-4. Verifique seu e-mail e copie a **API Key**
+- Acesse [ExchangeRate-API](https://www.exchangerate-api.com/)
+- Clique em **"Get Free Key"**
+- Cadastre-se com seu e-mail
+- Verifique seu e-mail e copie a **API Key**
 
 ### 3️⃣ Configure a API Key no projeto
 
@@ -84,17 +84,16 @@ mvn exec:java -Dexec.mainClass="Principal"
 ```
 
 **Opção 2 - Via IntelliJ IDEA:**
-1. Abra o arquivo `Principal.java`
-2. Clique no ícone ▶️ verde ao lado do método `main`
-3. Ou pressione `Shift + F10`
+- Abra o arquivo `Principal.java`
+- Clique no ícone ▶️ verde ao lado do método `main`
+- Ou pressione `Shift + F10`
 
 # Como Usar
-
-1. Execute o programa
-2. Escolha uma opção de conversão digitando o número correspondente (1-6)
-3. Digite o valor que deseja converter
-4. Visualize o resultado da conversão com a taxa de câmbio aplicada
-5. Continue fazendo conversões ou digite **7** para sair
+- Execute o programa
+- Escolha uma opção de conversão digitando o número correspondente (1-6)
+- Digite o valor que deseja converter
+- Visualize o resultado da conversão com a taxa de câmbio aplicada
+- Continue fazendo conversões ou digite **7** para sair
 
 
 # Exemplo de Uso Completo
@@ -116,11 +115,11 @@ Escolha uma opção de conversão:
 
 ➤ Digite sua opção: 1
 
-  Digite o valor que deseja converter: 100
+Digite o valor que deseja converter: 100
 
-  Conversão realizada com sucesso!
-   USD 100.00 → BRL 505.75
-   Taxa de câmbio: 1 USD = 5.0575 BRL
+Conversão realizada com sucesso!
+USD 100.00 → BRL 505.75
+Taxa de câmbio: 1 USD = 5.0575 BRL
 
 ==================================================
 ```
@@ -177,4 +176,5 @@ Este projeto proporcionou aprendizado prático em:
 
 # Desenvolvedor
 Desenvolvido por Keila Moloni Stefani
+
 ⭐ Se este projeto foi útil para você, considere dar uma estrela!
